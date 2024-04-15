@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Aual_08_04_Components" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="TemaTelaSplash" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/tela_splash</item>
+        <item name="colorPrimary">@color/primaria</item>
+        <item name="colorAccent">@color/secundaria</item>
+        <item name="android:statusBarColor">@color/terceira</item>
+    </style>
+
+    <style name="Theme.Aual_08_04_Components" parent="Base.Theme.Aual_08_04_Components" />
+</resources>
